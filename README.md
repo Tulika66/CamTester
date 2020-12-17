@@ -1,6 +1,6 @@
 # CamTester
 
-Android application  supports  API level 23 and above(>=Android 6.0, Marshmellow) .
+Android application  supports  API level 23 and above(>=Android 6.0, Marshmellow) . 
 
 ## Build Instructions
 
