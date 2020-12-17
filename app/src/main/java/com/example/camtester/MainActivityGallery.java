@@ -44,44 +44,12 @@ public class MainActivityGallery extends AppCompatActivity implements ActivityCo
         try {
            list = getImageFiles(Environment.getExternalStorageDirectory());// sd card
             
-//        list =getImageFiles("/storage/emulated/0/Android/data/com.example.camtester/files");
 
-
-//            File directory;
-//            String directoryName="/storage/emulated/0/Android/data/com.example.camtester/files";
-//            if(directoryName.isEmpty())
-//            {
-//                directory=getFilesDir();
-//            }/         uncomment the set of lines below
-//            else
-//            {
-//                directory=getDir(directoryName,MODE_PRIVATE);
-//            }
-//            File[] files=directory.listFiles();
-//            Log.d("MyTagGallery","list from externalgallery size = "+ list.size());
-//            try {
-//
-//                for (int i = 0; i < files.length; i++) {
-//                    if (files[i].isDirectory()) {
-//                        Log.d("MyTag","directory name = "+ files[i]);
-//                        list.addAll(getImageFiles(files[i]));
-//                    } else {
-//                        if (  (files[i].getName().endsWith(".jpg") || files[i].getName().endsWith(".png") || files[i].getName().endsWith(".gif"))) {
-//                            list.add(files[i]);
-//                        }
-//                    }
-//                }
-//
-//            }catch(Exception E)
-//            {
-//                Log.d("ErrorE","Error found - " + E);
-//                E.printStackTrace();
-//            }
 
         }catch(Exception E){
             Log.d("MyTagGallery","list getexternalstorage error");
         }
-        // 
+       
 //        iv=findViewById(R.id.iv1);
 //        iv.setImageBitmap(bmp);
 
@@ -151,9 +119,7 @@ public class MainActivityGallery extends AppCompatActivity implements ActivityCo
 
                     list.addAll(getImageFiles(files[i]));
                 } else {
-                    ///storage/emulated/0/Android/data/com.example.camtester/files/img/2.FML!Tue Sep 29 16:10:59 GMT+05:30 2020.jpg
-//                    (files[i].getName().contains("img")|| (files[i].getName().contains("Img"))
-                    //(files[i].getName().contains("camtester")|| (files[i].getName().contains("img")))  &&
+
                     if ( (files[i].getName().contains("Src:  CamTester"))  && (files[i].getName().endsWith(".jpg") || files[i].getName().endsWith(".png") )) {
                         Log.d("MyTag","directory name = "+ files[i] + "name file = "+ files[i].getName());
                         list.add(files[i]);
