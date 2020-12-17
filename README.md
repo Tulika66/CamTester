@@ -2,7 +2,7 @@
 
 Android application  supports  API level 23 and above(>=Android 6.0, Marshmellow) .
 
-##Build Instructions
+## Build Instructions
 
 1.Download the repository as zip file or clone using :
 
