@@ -165,17 +165,6 @@ public class MainActivity extends AppCompatActivity {
               public void onClick(View v) {
 
 
-//                  try{
-//
-//                      FileOutputStream stream =  new FileOutputStream(photoFile);
-//                      bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
-//
-//                      //Cleanup
-//                      stream.close();
-//                      bitmap.recycle();
-//                  }catch(Exception e){
-//                      e.printStackTrace();
-//                  }
                       Intent intent = new Intent(MainActivity.this, MainActivityGallery.class);
                       intent.putExtra("image",photoFile);
                       startActivity(intent);
