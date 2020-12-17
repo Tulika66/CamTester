@@ -43,7 +43,7 @@ public class MainActivityGallery extends AppCompatActivity implements ActivityCo
         checkPermissions();
         try {
            list = getImageFiles(Environment.getExternalStorageDirectory());// sd card
-            // from
+            
 //        list =getImageFiles("/storage/emulated/0/Android/data/com.example.camtester/files");
 
 
@@ -52,7 +52,7 @@ public class MainActivityGallery extends AppCompatActivity implements ActivityCo
 //            if(directoryName.isEmpty())
 //            {
 //                directory=getFilesDir();
-//            }
+//            }/         uncomment the set of lines below
 //            else
 //            {
 //                directory=getDir(directoryName,MODE_PRIVATE);
@@ -81,12 +81,12 @@ public class MainActivityGallery extends AppCompatActivity implements ActivityCo
         }catch(Exception E){
             Log.d("MyTagGallery","list getexternalstorage error");
         }
-        // to
+        // 
 //        iv=findViewById(R.id.iv1);
 //        iv.setImageBitmap(bmp);
 
 
-//         uncomment the set of lines below
+
         gridView = (GridView) findViewById(R.id.gridView);
         gridView.setAdapter(new GridAdapter());
 
