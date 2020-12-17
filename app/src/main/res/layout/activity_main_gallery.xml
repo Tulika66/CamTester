@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivityGallery">
+
+
+
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="#F1F4F6"
+            android:columnWidth="80dp"
+            android:horizontalSpacing="5dp"
+            android:numColumns="auto_fit"
+            android:stretchMode="spacingWidth"
+            android:verticalSpacing="5dp" />
+</RelativeLayout>
+
+<!--    android:background="#4DA2ED"-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:orientation="vertical"-->
+<!--    >-->
+<!--<TextView-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="50dp"-->
+<!--    android:hint="Gallery"-->
+<!--    android:background="@color/colorPrimary"-->
+<!--    android:textAlignment="center"-->
+<!--    android:textSize="30dp"-->
+<!--    android:id="@+id/tv"-->
+<!--    />-->
+
+<!--<TextView-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:hint=" "/>-->
+
+<!--<ImageView-->
+<!--    android:id="@+id/iv1"-->
+<!--    android:layout_width="405dp"-->
+<!--    android:layout_height="492dp"-->
+<!--    android:layout_gravity="center"-->
+<!--    android:background="#D5D3D9"-->
+
+
+<!--    />-->
+
+
+<!--</LinearLayout>-->
