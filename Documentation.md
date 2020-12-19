@@ -38,17 +38,21 @@ With textureTag (input for material metadata ), `btn_select` and `btn_take` (for
 
 
 - activity_crop.xml
+
    This layout Sets the cropping image with , with `btn_ok` and `btn_cancel` and `CropImageView` displaying the current status of the image under cropping consideration.
 
 
 - activity_main_gallery.xml
+
    This layout contains the `GridView` of all the cached local images via the app in the device’s storage in a grid like fashion.
 
 - activity_view_image.xml 
+
   This layout sets the imageview preview 
 
 
 - grid_item.xml
+
   This layout pertains to each single imageview displayed in the gallery view of the app. 
 
 
