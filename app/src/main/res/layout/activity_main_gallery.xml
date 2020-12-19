@@ -27,37 +27,3 @@
             android:verticalSpacing="5dp" />
 </RelativeLayout>
 
-<!--    android:background="#4DA2ED"-->
-<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
-<!--xmlns:tools="http://schemas.android.com/tools"-->
-<!--android:layout_width="match_parent"-->
-<!--android:layout_height="match_parent"-->
-<!--android:orientation="vertical"-->
-<!--    >-->
-<!--<TextView-->
-<!--    android:layout_width="match_parent"-->
-<!--    android:layout_height="50dp"-->
-<!--    android:hint="Gallery"-->
-<!--    android:background="@color/colorPrimary"-->
-<!--    android:textAlignment="center"-->
-<!--    android:textSize="30dp"-->
-<!--    android:id="@+id/tv"-->
-<!--    />-->
-
-<!--<TextView-->
-<!--    android:layout_width="match_parent"-->
-<!--    android:layout_height="wrap_content"-->
-<!--    android:hint=" "/>-->
-
-<!--<ImageView-->
-<!--    android:id="@+id/iv1"-->
-<!--    android:layout_width="405dp"-->
-<!--    android:layout_height="492dp"-->
-<!--    android:layout_gravity="center"-->
-<!--    android:background="#D5D3D9"-->
-
-
-<!--    />-->
-
-
-<!--</LinearLayout>-->
