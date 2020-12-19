@@ -6,6 +6,7 @@
 
 
 - MainAcivity.java 
+
 This activity will send data to the CropActivity.class for processing images and MainActivityGallery for gallery view of extracted and processed images.
 The onCreate method of the activity , upon launch of the application initialises the fields and buttons , loads any previously saved instance of the app (if any). Each component awaits events.After parsing the mandatory meta-data (failure of which does not allow the user to proceed further), depending on the action by the user, one of the buttons are fired `.Btntake` and btnSelect through the intent sends data to the `CropActivity.java` , meanwhile galleryview  activates the `MainActivityGallery.java` upon `onClick` event.
 
@@ -14,6 +15,7 @@ The onCreate method of the activity , upon launch of the application initialises
 
 
 - CropActivity.java
+
 This activity receives data from `MainActivity`, processes them and stores them in the device’s storage.
 If the permissions asked during the installation of the app are granted, and depending upon the code via the intent, the state of the boolean variable(mFromAlbum) is set and the function `selectphoto()` is fired. Using the state of the variable, `selectphoto()` will either pick an image from device’s storage or launches camera.Upon  onResultActivity, Images are extracted and cropped , dimensions are fixed through the `calculateSampleSize()` , and are written via the `saveImage()` function.
 
@@ -22,6 +24,7 @@ If the permissions asked during the installation of the app are granted, and dep
 
 
 - MainActivityGallery.java 
+
 This activity is activated from the onClick event of the galleryview button of `MainActivity` . The permissions for reading Media Storage are checked and the files are loaded , Adapter is loaded and images are set to preview in a grid view.
 
 
